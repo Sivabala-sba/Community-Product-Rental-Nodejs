@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Products</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/search-products.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Search Products</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add-product.html">Add a Product</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Search for Products</h2>
+            <form id="search-products-form">
+                <label for="searchQuery">Product Name or Keyword:</label>
+                <input type="text" id="searchQuery" name="searchQuery" required>
+
+                <button type="submit">Search</button>
+            </form>
+            <div id="search-results">
+                <!-- Search results will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Community Product Rental</p>
+    </footer>
+    <script src="js/search-products.js"></script>
+</body>
+</html>

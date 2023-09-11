@@ -1,0 +1,13 @@
+{
+    "name": "community-product-rental-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for the Community Product Rental project",
+    "main": "index.html",
+    "scripts": {
+        "start": "your-start-script-here"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+    }
+}

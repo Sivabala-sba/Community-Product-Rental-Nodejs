@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Product</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/add-product.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Add a Product for Rent</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search-products.html">Search Products</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Add Product Details</h2>
+            <form id="add-product-form">
+                <label for="productName">Product Name:</label>
+                <input type="text" id="productName" name="productName" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <label for="contactInfo">Contact Information:</label>
+                <input type="text" id="contactInfo" name="contactInfo" required>
+
+                <button type="submit">Add Product</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Community Product Rental</p>
+    </footer>
+    <script src="js/add-product.js"></script>
+</body>
+</html>
